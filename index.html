@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheBar – Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Manrope, sans-serif;
+      background: #0a0705;
+      color: #fefaf2;
+      min-height: 100vh;
+      padding: 40px 20px 80px;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 0 48px;
+      border-bottom: 1px solid rgba(255, 191, 102, 0.2);
+      margin-bottom: 48px;
+    }
+
+    .app-icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: Fraunces, serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: #ffbf66;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      font-family: Fraunces, serif;
+      font-size: 1.5rem;
+      color: #ffbf66;
+      margin: 48px 0 20px;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #fefaf2;
+      margin: 28px 0 8px;
+      letter-spacing: 0.01em;
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.82);
+      margin-bottom: 12px;
+      font-size: 0.97rem;
+    }
+
+    .section {
+      background: rgba(255, 191, 102, 0.05);
+      border: 1px solid rgba(255, 191, 102, 0.18);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+    }
+
+    .section h3:first-child {
+      margin-top: 0;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 12px;
+    }
+
+    li {
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.97rem;
+      margin-bottom: 4px;
+    }
+
+    a {
+      color: #ffbf66;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-box {
+      background: rgba(255, 191, 102, 0.08);
+      border: 1px solid rgba(255, 191, 102, 0.35);
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      margin-top: 48px;
+    }
+
+    .contact-box h2 {
+      margin: 0 0 10px;
+    }
+
+    .contact-box p {
+      margin-bottom: 20px;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: rgba(255, 191, 102, 0.15);
+      border: 1px solid rgba(255, 191, 102, 0.6);
+      color: #ffbf66;
+      font-family: Manrope, sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 12px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .contact-btn:hover {
+      background: rgba(255, 191, 102, 0.25);
+      text-decoration: none;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 0.82rem;
+    }
+
+    @media (max-width: 600px) {
+      .section { padding: 18px 18px; }
+      body { padding: 24px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="header">
+      <div class="app-icon">🍸</div>
+      <h1>TheBar</h1>
+      <p class="tagline">Your personal AI bartender &mdash; Support</p>
+    </div>
+
+    <!-- GETTING STARTED -->
+    <h2>Getting Started</h2>
+
+    <div class="section">
+      <div class="faq-item">
+        <h3>Do I need an API key to use TheBar?</h3>
+        <p>If you choose <strong>Apple Intelligence</strong> as your AI Engine, no key is required — it runs entirely on your device. For ChatGPT, Gemini, or Claude you'll need a free or paid API key from that provider:</p>
+        <ul>
+          <li>OpenAI (ChatGPT): <a href="https://platform.openai.com" target="_blank">platform.openai.com</a></li>
+          <li>Google Gemini: <a href="https://aistudio.google.com" target="_blank">aistudio.google.com</a></li>
+          <li>Anthropic (Claude): <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a></li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where do I enter my API key?</h3>
+        <p>Tap the gear icon (⚙️) in the top-right corner to open Settings. Choose your AI Engine, enter your key in the API Key field, then tap <strong>Save API Key</strong>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is my API key stored safely?</h3>
+        <p>Yes. Your API key is stored in the iOS Keychain on your device and is never sent to any server other than the AI provider you selected.</p>
+      </div>
+    </div>
+
+    <!-- RECIPES -->
+    <h2>Recipes</h2>
+
+    <div class="section">
+      <div class="faq-item">
+        <h3>Why does the recipe use ingredients I don't have?</h3>
+        <p>TheBar does its best to stick to your inventory, but AI models occasionally suggest items outside it. Tap <strong>Make Another</strong> and the app will try again with tighter constraints. Make sure your inventory is up to date in the Inventory tab.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Apple Intelligence won't generate a recipe.</h3>
+        <p>Apple Intelligence requires iOS 26 or later and must be enabled on your device. Go to <strong>Settings → Apple Intelligence &amp; Siri</strong> and make sure it's turned on. The model may also need time to finish downloading. If it continues to decline, try switching to a different AI Engine in TheBar's Settings.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>The recipe shows as plain text instead of a card.</h3>
+        <p>This can happen if the AI response doesn't follow the expected format. Tap <strong>Make Another</strong> to generate a new recipe. If it happens consistently, try switching to a different AI Engine.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I save a recipe?</h3>
+        <p>Use your phone's screenshot button or share the screen to save a recipe you love. Saved recipes are not currently stored within the app.</p>
+      </div>
+    </div>
+
+    <!-- INVENTORY -->
+    <h2>Inventory</h2>
+
+    <div class="section">
+      <div class="faq-item">
+        <h3>How do I add items to my inventory?</h3>
+        <p>Tap <strong>Inventory</strong> in the top navigation, then tap the <strong>+</strong> button next to any category. You can also add a new category by tapping <strong>Add Category</strong>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I rename or delete a category?</h3>
+        <p>Tap the ✏️ icon next to the category name to rename it, or the 🗑 icon to delete the entire category and its items.</p>
+      </div>
+    </div>
+
+    <!-- SETTINGS & DATA -->
+    <h2>Settings &amp; Data</h2>
+
+    <div class="section">
+      <div class="faq-item">
+        <h3>Will my settings sync across my devices?</h3>
+        <p>Yes. Your inventory, bar configuration, and settings sync automatically via iCloud to any iPhone or iPad signed into the same Apple ID.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I back up my data?</h3>
+        <p>Go to <strong>Settings (⚙️) → Backup</strong>. This opens the iOS share sheet so you can save your backup file to Files, send it via Mail, or store it anywhere you like.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I restore from a backup?</h3>
+        <p>Go to <strong>Settings (⚙️) → Restore</strong> and select your previously saved <code>.json</code> backup file.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I reset everything to defaults?</h3>
+        <p>Scroll to the bottom of Settings and tap <strong>Reset to Defaults</strong>. This restores your inventory, bar name, quick buttons, and configuration to their original values.</p>
+      </div>
+    </div>
+
+    <!-- PRIVACY -->
+    <h2>Privacy</h2>
+
+    <div class="section">
+      <p>TheBar does not collect, transmit, or store any personal data on external servers. Your inventory and settings are stored in your personal iCloud account. API keys are stored locally in your device's Keychain.</p>
+      <p>When you request a recipe, your inventory list and request are sent directly to the AI provider you selected. Please review their privacy policies:</p>
+      <ul>
+        <li><a href="https://openai.com/privacy" target="_blank">OpenAI Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        <li><a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy</a></li>
+      </ul>
+      <p style="margin-bottom:0">Apple Intelligence requests are processed entirely on-device and never leave your phone.</p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-box">
+      <h2>Contact &amp; Feedback</h2>
+      <p>Have a question, found a bug, or have a feature idea? We read every message.</p>
+      <a class="contact-btn" href="mailto:your-email@example.com">📧 Get in Touch</a>
+    </div>
+
+    <div class="footer">
+      <p>TheBar is an independent app. Not affiliated with OpenAI, Google, Anthropic, or Apple.</p>
+    </div>
+
+  </div>
+</body>
+</html>
